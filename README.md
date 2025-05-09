@@ -1,65 +1,60 @@
-# Spitball Simulator
+# 🦜 Tropical Bird Simulator
 
-A modular, browser-based Three.js simulator for launching soft-body spitballs at arcade cup towers, featuring interactive controls, physics, and fun effects.
+A vibrant, interactive 3D simulation where you control tropical birds in a lush environment, complete with realistic flight and projectile capabilities! Experience the beauty of the tropics, dynamic bird behaviors, and fun physics-based interactions. 🌴🌺
 
-## Structure
+## ✨ Features
 
-- `public/` — Static assets and `index.html` entry point.
-- `src/` — Modular source code:
-  - `main.js` — App entry point, scene setup, and main loop.
-  - `physics/` — Physics world and integration (Ammo.js, soft/rigid bodies).
-  - `objects/` — 3D objects: spitball, cups, launcher, etc.
-  - `ui/` — User interface controls and overlays.
-  - `utils/` — Helper functions and utilities.
+- **🦜 Realistic Bird Simulation**: Control tropical birds with lifelike flight and movement
+- **🎯 Projectile Mechanics**: Launch projectiles from your bird for fun and physics-based challenges
+- **🌴 Lush 3D Environment**: Explore a beautiful, tropical world rendered in 3D
+- **🎛️ Interactive Controls**: Adjust bird parameters, projectile power, and more
+- **📱 Responsive Design**: Enjoy smooth gameplay on any screen size
 
-## Features
-- Mouse-driven projectile launcher
-- Deployable, stackable arcade cup targets
-- Soft-body spitball with burst/splash effect
-- Collapsible/expandable interactive controls
-- Timeline scrubbing and replay (planned)
+## 🔧 Technical Details
 
-## Getting Started
+- Built with Three.js for immersive 3D rendering
+- Uses Ammo.js for physics simulation and projectile dynamics
+- Modular code structure for easy maintenance and extension
+- WebGL-based rendering with antialiasing
 
-### 1. Install dependencies
+## 🚀 Getting Started
 
-```
-npm install
-```
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Open `public/index.html` in your browser or serve it using a local server
 
-### 2. Start the development server
+## 🎮 Controls
 
-This project uses [`serve`](https://www.npmjs.com/package/serve) to serve static files. If you don't have it globally, the `npm start` script will use `npx` to run it:
+- Use the UI to:
+  - Select and control different tropical birds
+  - Adjust flight and projectile parameters
+  - Launch projectiles and interact with the environment
+- Click and drag to control bird direction
+- Click to launch a projectile
 
-```
-npm start
-```
+## 💻 Development
 
-### 3. Open the app in your browser
+The project is structured as follows:
+- `public/src/main.js` - Main application entry point
+- `public/src/physics/` - Physics world setup and utilities
+- `public/src/objects/` - Bird and projectile objects
+- `public/src/ui/` - User interface controls
+- `public/src/utils/` - Helper functions
 
-Go to:
+## 🌐 Deployment
 
-```
-http://localhost:3000
-```
+The project is configured for easy deployment on Netlify. The `netlify.toml` file contains the necessary deployment settings.
 
-or the port shown in your terminal.
+## 📄 License
 
-> **Note:** If you open `public/index.html` directly in your browser (file://), you may encounter CORS or module loading issues. Always use a local server.
+[Your chosen license]
 
-## Technologies Used
-- [Three.js](https://threejs.org/) — 3D rendering
-- [Ammo.js](https://github.com/kripken/ammo.js/) — Physics engine (soft/rigid bodies)
-- [dat.GUI](https://github.com/dataarts/dat.gui) — UI controls
+## 🤝 Contributing
 
-## Troubleshooting
-- **Black screen or errors?** Make sure you are running a local server (see above).
-- **Module not found?** Double-check your `npm install` completed successfully.
-- **Physics not working?** Ammo.js is loaded asynchronously; some features are placeholders and will be improved.
-
-## Modularity
-Each major feature is in its own file or directory for maintainability and scalability. You can extend or swap out modules (e.g., add new cup types, change the launcher, etc.) easily.
+Feel free to submit issues and enhancement requests!
 
 ---
-
-Have fun launching spitballs! 
+Made with ❤️ in the tropics using Three.js and Ammo.js 
