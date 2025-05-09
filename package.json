@@ -1,0 +1,15 @@
+{
+  "name": "spitball-simulator",
+  "version": "1.0.0",
+  "description": "A modular Three.js-based spitball simulator with soft-body and fluid effects, interactive controls, and arcade cup targets.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "npx serve public",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "three": "^0.155.0",
+    "ammo.js": "^0.0.10",
+    "dat.gui": "^0.7.9"
+  }
+} 
