@@ -2,6 +2,8 @@
 
 A vibrant, interactive 3D simulation where you control tropical birds in a lush environment, complete with realistic flight and projectile capabilities! Experience the beauty of the tropics, dynamic bird behaviors, and fun physics-based interactions. 🌴🌺
 
+![tropbirds](/media/tropbirds.webm)
+
 ## ✨ Features
 
 - **🦜 Realistic Bird Simulation**: Control tropical birds with lifelike flight and movement
