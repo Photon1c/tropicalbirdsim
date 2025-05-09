@@ -52,11 +52,11 @@ The project is configured for easy deployment on Netlify. The `netlify.toml` fil
 
 ## 📄 License
 
-[Your chosen license]
+MIT
 
 ## 🤝 Contributing
 
 Feel free to submit issues and enhancement requests!
 
 ---
-Made with ❤️ in the tropics using Three.js and Ammo.js 
+Made with ❤️ in the tropics using Three.js and Cursor IDE
