@@ -1,6 +1,6 @@
 # 🦜 Tropical Bird Simulator
 
-### ⏫ Major update: this simulation is live [here](https://tropicalbirdsim.netlify.app/)
+### ⏫ May 2025 Major Update: This simulation is live [here](https://tropicalbirdsim.netlify.app/)
 
 A vibrant, interactive 3D simulation where you control tropical birds in a lush environment, complete with realistic flight and projectile capabilities! Experience the beauty of the tropics, dynamic bird behaviors, and fun physics-based interactions. 🌴🌺
 
